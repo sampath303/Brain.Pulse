@@ -1,0 +1,13 @@
+
+# Ignore virtual environment and site-packages
+backend/dip/Lib/
+
+# Python stuff
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS-generated files
+.DS_Store
+Thumbs.db

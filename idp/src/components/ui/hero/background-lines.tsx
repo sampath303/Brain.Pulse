@@ -17,7 +17,7 @@ export const BackgroundLines = ({
   return (
     <div
       className={cn(
-        "h-[20rem] md:h-screen w-full  dark:bg-black",
+        "h-[20rem] md:h-screen w-full dark:bg-black relative group",
         className
       )}
     >
@@ -33,6 +33,11 @@ const pathVariants = {
     strokeDashoffset: 0,
     strokeDasharray: "20 800",
     opacity: [0, 1, 1, 0],
+  },
+  hover: {
+    strokeDasharray: "5 20",
+    strokeWidth: 3,
+    opacity: 1,
   },
 };
 
@@ -90,6 +95,7 @@ const SVG = ({
     "#6A286F",
     "#604483",
   ];
+
   return (
     <motion.svg
       viewBox="0 0 1440 900"
@@ -97,18 +103,20 @@ const SVG = ({
       xmlns="http://www.w3.org/2000/svg"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 1 }}
+      transition={{ duration: 0 }}
       className="absolute inset-0 w-full h-full"
+      
     >
-      {paths.map((path, idx) => (
+      {[...paths, ...paths].map((path, idx) => (
         <motion.path
           d={path}
-          stroke={colors[idx]}
+          stroke={colors[idx % colors.length]}
           strokeWidth="2.3"
           strokeLinecap="round"
           variants={pathVariants}
           initial="initial"
           animate="animate"
+          whileHover="hover"
           transition={{
             duration: svgOptions?.duration || 10,
             ease: "linear",
@@ -117,29 +125,7 @@ const SVG = ({
             delay: Math.floor(Math.random() * 10),
             repeatDelay: Math.floor(Math.random() * 10 + 2),
           }}
-          key={`path-first-${idx}`}
-        />
-      ))}
-
-      {/* duplicate for more paths */}
-      {paths.map((path, idx) => (
-        <motion.path
-          d={path}
-          stroke={colors[idx]}
-          strokeWidth="2.3"
-          strokeLinecap="round"
-          variants={pathVariants}
-          initial="initial"
-          animate="animate"
-          transition={{
-            duration: svgOptions?.duration || 10,
-            ease: "linear",
-            repeat: Infinity,
-            repeatType: "loop",
-            delay: Math.floor(Math.random() * 10),
-            repeatDelay: Math.floor(Math.random() * 10 + 2),
-          }}
-          key={`path-second-${idx}`}
+          key={`path-${idx}`}
         />
       ))}
     </motion.svg>

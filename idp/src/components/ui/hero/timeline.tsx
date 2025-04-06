@@ -36,7 +36,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           Brain Tumor
         </h2>
         <p className="text-left text-white text-sm md:text-base max-w-6xl">
-          A brain tumor, known as an intracranial tumor, is an abnormal mass of tissue in which cells grow and multiply uncontrollably...
+        Brain tumors are abnormal growths of cells in the brain that may be benign or cancerous, often impacting functions like memory, balance, vision, or speech depending on their location and size. Early detection is critical but historically challenging due to subtle symptoms. Today, advanced medical imaging and AI-powered diagnostic tools offer significant improvements in accuracy and speed. These innovations assist doctors in identifying tumors more reliably, leading to earlier intervention and more effective treatment plans—including surgery, radiation, and targeted therapies—ultimately improving survival rates and quality of life for patients.
         </p>
         <h5 className="text-left font-bold text-lg md:text-4xl mt-20 mb-[-100px]">
           Types of Brain Tumor

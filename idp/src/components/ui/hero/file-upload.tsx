@@ -67,9 +67,9 @@ export const FileUpload: React.FC<FileUploadProps> = ({ onChange }) => {
           onClick={handleClick}
           whileHover="animate"
           variants={mainVariant}
-          transition={{ type: "spring", stiffness: 400, damping: 15 }} // Faster animation
+          transition={{ type: "spring", stiffness: 100, damping: 15 }} // Faster animation
           className="relative cursor-pointer flex items-center justify-center 
-            h-32 w-32 rounded-lg hover:scale-110 transition-transform duration-150
+            h-32 w-32 rounded-lg hover:scale-90  duration-150
             bg-white/10 backdrop-blur-md shadow-lg border border-white/20"
         >
           <input
