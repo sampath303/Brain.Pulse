@@ -45,7 +45,7 @@ export function TimelineDemo() {
           <div className="grid grid-cols-2 gap-4">
             
             <img
-              src="https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2019/03/14/20/11/pituitary-tumor-8col-3802786-009-0.jpg"
+              src="https://cdn.lecturio.com/assets/MRI-pituitary-tumor-sagittal-view.jpg"
               alt="pituitary tumor"
               width={500}
               height={500}
@@ -141,7 +141,7 @@ export function TimelineDemo() {
             
              />
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7SbkL0Eus7zh5ThION-VhrOLCspMWheZy9LWEhaxW1ZHrP1LIjKhuRmVO3yCBt9xxT0U&usqp=CAU"
+              src="https://askthenurseexpert.com/wp-content/uploads/2023/09/understanding-meningioma-tumors-4.jpg"
               alt="cards template"
               width={500}
               height={500}
