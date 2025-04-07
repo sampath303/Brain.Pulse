@@ -45,11 +45,11 @@ export function TimelineDemo() {
           <div className="grid grid-cols-2 gap-4">
             
             <img
-              src="https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2019/03/14/20/11/pituitary-tumor-8col-3802786-009-0.jpg"
+              src="https://cdn.lecturio.com/assets/MRI-pituitary-tumor-sagittal-view.jpg"
               alt="pituitary tumor"
               width={500}
               height={500}
-            className="rounded-lg object-fit h-20 md:h-44 lg:h-60 w-full cursor-pointer transition-transform duration-300 hover:scale-110 shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            className="rounded-lg object-fit h-20 md:h-44 lg:h-60 w-full  transition-transform duration-300  shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
 
             <img
@@ -57,7 +57,7 @@ export function TimelineDemo() {
               alt="pituitary tumor"
               width={500}
               height={500}
-              className="rounded-lg object-fit h-20 md:h-44 lg:h-60 w-full cursor-pointer transition-transform duration-300 hover:scale-110 shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              className="rounded-lg object-fit h-20 md:h-44 lg:h-60 w-full  transition-transform duration-300  shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             
             />
           </div>
@@ -86,14 +86,14 @@ export function TimelineDemo() {
               alt="bento template"
               width={500}
               height={500}
-              className="rounded-lg object-fit h-20 md:h-44 lg:h-60 w-full cursor-pointer transition-transform duration-300 hover:scale-110 shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              className="rounded-lg object-fit h-20 md:h-44 lg:h-60 w-full  transition-transform duration-300  shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
              />
             <img
               src="https://www.cancer.gov/rare-brain-spine-tumor/sites/g/files/xnrzdm226/files/styles/cgov_article/public/cgov_image/media_image/100/200/7/files/Midline%20Glioma%20%28Article%29.jpg?h=b26af281&itok=D0zLgULJ"
               alt="cards template"
               width={500}
               height={500}
-              className="rounded-lg object-fit h-20 md:h-44 lg:h-60 w-full cursor-pointer transition-transform duration-300 hover:scale-110 shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              className="rounded-lg object-fit h-20 md:h-44 lg:h-60 w-full  transition-transform duration-300  shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             
               />
           </div>
@@ -137,15 +137,15 @@ export function TimelineDemo() {
               alt="bento template"
               width={500}
               height={500}
-              className="rounded-lg object-fit h-20 md:h-44 lg:h-60 w-full cursor-pointer transition-transform duration-300 hover:scale-110 shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              className="rounded-lg object-fit h-20 md:h-44 lg:h-60 w-full  transition-transform duration-300 shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             
              />
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7SbkL0Eus7zh5ThION-VhrOLCspMWheZy9LWEhaxW1ZHrP1LIjKhuRmVO3yCBt9xxT0U&usqp=CAU"
+              src="https://askthenurseexpert.com/wp-content/uploads/2023/09/understanding-meningioma-tumors-4.jpg"
               alt="cards template"
               width={500}
               height={500}
-              className="rounded-lg object-fit h-20 md:h-44 lg:h-60 w-full cursor-pointer transition-transform duration-300 hover:scale-110 shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              className="rounded-lg object-fit h-20 md:h-44 lg:h-60 w-full  transition-transform duration-300  shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             
              />
           </div>
