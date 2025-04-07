@@ -31,7 +31,7 @@ const testimonials = [
     title: "",
   },
   {
-    quote: "Turned pixels into perfection. Designed a frontend so smooth, users click just to admire the UI.",
+    quote: "Turned pixels into perfection. Designed a frontend so smooth like butter, users click just to admire the UI.",
     name: "Sampath Kumar",
     title: "",
   },
