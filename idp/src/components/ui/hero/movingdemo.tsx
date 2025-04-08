@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import _React, { useEffect, useState } from "react";
 import { InfiniteMovingCards } from "../hero/infinite-moving-cards";
 
 export function InfiniteMovingCardsDemo() {
