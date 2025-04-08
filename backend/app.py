@@ -2,12 +2,12 @@ import os
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
 from predict import predict_tumor_type
 from flask_cors import CORS
 
-app = Flask(__name__)  # ✅ FIXED: use __name__
-CORS(app)  # Enable CORS for frontend-backend connection
+app = Flask(__name__, static_folder="static")  # 🔧 set static folder
+CORS(app)
 
 UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
@@ -28,6 +28,15 @@ def predict():
     tumor_type = predict_tumor_type(filepath)
     return jsonify({'prediction': tumor_type})
 
-if __name__ == '__main__':  # ✅ FIXED: use __name__
-    print("✅ Flask backend starting at ")
+# 🧠 Frontend routes
+@app.route("/", defaults={'path': ''})
+@app.route("/<path:path>")
+def serve_frontend(path):
+    if path != "" and os.path.exists(os.path.join(app.static_folder, path)):
+        return send_from_directory(app.static_folder, path)
+    else:
+        return send_from_directory(app.static_folder, "index.html")
+
+if __name__ == '__main__':
+    print("✅ Flask backend starting at http://localhost:5000")
     app.run(debug=True)
