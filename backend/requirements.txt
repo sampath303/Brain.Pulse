@@ -10,5 +10,5 @@ keras==3.8.0
 ipywidjets==7.7.1
 PIL==11.1.10
 tqdm==4.67.1
-
+gunicorn==22.0.0
 
