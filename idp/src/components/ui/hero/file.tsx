@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import _React, { useState } from "react";
 import { FileUpload } from "../../../components/ui/hero/file-upload";
 
 const tumorInfo: Record<string, { symptoms: string[]; actions: string[] }> = {
