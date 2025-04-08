@@ -15,8 +15,8 @@ const mainVariant = {
 
 export const FileUpload: React.FC<FileUploadProps> = ({ onChange }) => {
   const fileInputRef = useRef<HTMLInputElement>(null);
-  const [files, setFiles] = useState<File[]>([]);
-  const [prediction, setPrediction] = useState<string | null>(null);
+  const [_files, setFiles] = useState<File[]>([]);
+  const [_prediction, setPrediction] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
   const handleFileChange = async (newFiles: File[]) => {

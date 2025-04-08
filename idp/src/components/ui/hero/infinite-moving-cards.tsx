@@ -22,7 +22,7 @@ export const InfiniteMovingCards = ({
 }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const scrollerRef = useRef<HTMLUListElement>(null);
-  const [start, setStart] = useState(false);
+  const [_start, setStart] = useState(false);
 
   useEffect(() => {
     if (!scrollerRef.current || !containerRef.current) return;

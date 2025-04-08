@@ -55,7 +55,7 @@ const tumorInfo: Record<string, { symptoms: string[]; actions: string[] }> = {
 };
 
 export function FileUploadDemo() {
-  const [files, setFiles] = useState<File[]>([]);
+  const [_files, setFiles] = useState<File[]>([]);
   const [previewURL, setPreviewURL] = useState<string | null>(null);
   const [prediction, setPrediction] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
