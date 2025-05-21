@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import _React, { useState } from "react";
 import { FileUpload } from "../../../components/ui/hero/file-upload";
 
 const tumorInfo: Record<string, { symptoms: string[]; actions: string[] }> = {
@@ -55,7 +55,7 @@ const tumorInfo: Record<string, { symptoms: string[]; actions: string[] }> = {
 };
 
 export function FileUploadDemo() {
-  const [files, setFiles] = useState<File[]>([]);
+  const [_files, setFiles] = useState<File[]>([]);
   const [previewURL, setPreviewURL] = useState<string | null>(null);
   const [prediction, setPrediction] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
